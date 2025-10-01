@@ -104,9 +104,6 @@ const handleSubmit = async () => {
   formData.append('capacity', form.value.capacity)
   formData.append('free', form.value.status)
 
-  // if (form.value.image) {
-  //   formData.append('thumbnail', form.value.image)
-  // }
 
   if (isEdit.value) {
     try {
